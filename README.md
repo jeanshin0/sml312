@@ -33,7 +33,7 @@ This project aims to detect ramps & stairs in environments using YOLOv11/v8(s & 
 - `ramp_dataset.yaml_ex` – Sample config file
 
 ## YAML Configuration
-To run YOLO scripts, need to properly configure a YAML file, ensuring paths & classes are accurately labelled.
+To run YOLO scripts, a YAML file needs to be properly configured, ensuring paths & classes are accurately labelled.
 
 
 ## Model Overview
@@ -55,7 +55,7 @@ This project utilizes three different models to:
 You can train the model in two ways:
 
 ### Option 1: Python Script  
-Run the python training script directly. Modify parameters inside `train.py` if needed:
+Run the python training script directly. Modify parameters inside `./yolo_models_training/train.py` if needed:
 
 ```bash
 python train.py
